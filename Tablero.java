@@ -12,12 +12,12 @@ public class Tablero {
         "&", // Ampersand
         "$", // Dólar
         "@", // Arroba
-        "#", // Almohadilla
+        "#", // Hashtag
         "%", // Porcentaje
         "*", // Asterisco
         "!", // Exclamación
         "=", // Igual
-        "~"  // Tilde
+        "~"  // Virgulia
 };
 
     public Tablero(int tamano) {
@@ -70,4 +70,5 @@ public class Tablero {
         }
         return true;
     }
+
 }
